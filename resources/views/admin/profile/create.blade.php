@@ -12,7 +12,7 @@
     </body>
 </html>
 
-@extends('layouts'.'profile')
+@extends('layouts.profile')
 
 @section('title', 'プロフィールの新規作成')
 

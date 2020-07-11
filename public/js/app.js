@@ -42594,6 +42594,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/assets/sass/front.scss":
+/*!******************************************!*\
+  !*** ./resources/assets/sass/front.scss ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "./resources/assets/sass/profile.scss":
 /*!********************************************!*\
   !*** ./resources/assets/sass/profile.scss ***!
@@ -42606,16 +42617,17 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ 0:
-/*!***************************************************************************************************************************************************!*\
-  !*** multi ./resources/assets/js/app.js ./resources/assets/sass/app.scss ./resources/assets/sass/admin.scss ./resources/assets/sass/profile.scss ***!
-  \***************************************************************************************************************************************************/
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/assets/js/app.js ./resources/assets/sass/app.scss ./resources/assets/sass/admin.scss ./resources/assets/sass/profile.scss ./resources/assets/sass/front.scss ***!
+  \**************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! /home/ec2-user/environment/mynews/resources/assets/js/app.js */"./resources/assets/js/app.js");
 __webpack_require__(/*! /home/ec2-user/environment/mynews/resources/assets/sass/app.scss */"./resources/assets/sass/app.scss");
 __webpack_require__(/*! /home/ec2-user/environment/mynews/resources/assets/sass/admin.scss */"./resources/assets/sass/admin.scss");
-module.exports = __webpack_require__(/*! /home/ec2-user/environment/mynews/resources/assets/sass/profile.scss */"./resources/assets/sass/profile.scss");
+__webpack_require__(/*! /home/ec2-user/environment/mynews/resources/assets/sass/profile.scss */"./resources/assets/sass/profile.scss");
+module.exports = __webpack_require__(/*! /home/ec2-user/environment/mynews/resources/assets/sass/front.scss */"./resources/assets/sass/front.scss");
 
 
 /***/ })

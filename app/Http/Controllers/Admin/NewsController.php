@@ -60,7 +60,7 @@ public function edit(Request $request)
     if (empty($news)) {
         abort(404);
     }
-    return views('admin.news.edit', ['news_form' => $news]);
+    return view('admin.news.edit', ['news_form' => $news]);
 }
 
 public function update(Request $request)
@@ -75,8 +75,11 @@ public function update(Request $request)
       } elseif (isset($request->remove)) {
         $news->image_path = null;
         unset($news_form['remove']);
+      } else {
+          unset($news_form['image']);
       }
     unset($news_form['_token']);
+   
     $news->fill($news_form)->save();
     
     $history = new History;
