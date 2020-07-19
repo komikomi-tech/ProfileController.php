@@ -21,6 +21,6 @@ class NewsController extends Controller
         
         }
         
-        return view('news.index', ['headline' => $headline, 'post' => $posts]);
+        return view('news.index', ['headline' => $headline, 'posts' => $posts]);
     }
 }
